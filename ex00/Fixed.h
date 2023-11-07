@@ -17,6 +17,7 @@ private:
 	int                 fixed_point_number;
 	static const int    number_fractional_bits = 8;
 public:
+	static int x;
 	Fixed();
 	Fixed(const Fixed &fixed);
 	Fixed   &operator=(const Fixed &fixed);

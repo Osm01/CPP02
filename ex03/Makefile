@@ -1,9 +1,9 @@
 NAME = a.out
 
-COMPI = c++ -std=c++11
+COMPI = c++ -std=c++98
 ERRORS = -Wall -Wextra -Werror
 
-SRC = main.cpp Fixed.cpp
+SRC = main.cpp Fixed.cpp Point.cpp
 
 all : $(NAME)
 
